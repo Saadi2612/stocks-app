@@ -1,9 +1,6 @@
-const serverUrl =
-  process.env.NODE_ENV === "production"
-    ? `${process.env.BACKEND_URL}`
-    : "http://127.0.0.1:8000";
+const serverUrl = `${process.env.BACKEND_URL}`;
 
-const BASE_URL = serverUrl || "http://127.0.0.1:8000";
+const BASE_URL = serverUrl ?? "http://127.0.0.1:8000";
 
 export const fetchData = async (endpoint, options = {}) => {
   // console.log(endpoint);
