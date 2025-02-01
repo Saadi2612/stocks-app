@@ -7,8 +7,8 @@ import traceback
 
 class StockService:
     def __init__(self):
-        self.stocks_file_path = "stocks.csv"
-        self.analyzed_stocks_file_path = "analyzed_stocks.csv"
+        self.stocks_file_path = "server/stocks.csv"
+        self.analyzed_stocks_file_path = "server/analyzed_stocks.csv"
         self.stock_symbols = ["AAPL", "MSFT", "GOOGL", "TSLA", "NVDA", "AMZN", "DIS"]
 
     def save_stock_data(self, stock_data, file_path):
@@ -201,7 +201,7 @@ class StockService:
             "stocks": formatted_stocks,
             "average_current_price": avg_current_price.round(2),
             "average_previous_close": avg_prev_close.round(2),
-            "highest_volume_stock": f"{stock_name}, {volume:,}",
+            "highest_volume_stock": f"{stock_name}:{volume:,}",
         }
 
         return response
