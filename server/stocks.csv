@@ -1,0 +1,8 @@
+Stock,Symbol,Current Price,Previous Close,Market Cap,Volume
+Apple Inc. (AAPL),AAPL,236.0,237.59,3.549T,93080144.0
+Microsoft Corporation (MSFT),MSFT,415.06,414.99,3.086T,33325644.0
+Alphabet Inc. (GOOGL),GOOGL,204.02,200.87,2.507T,31987744.0
+"Tesla, Inc. (TSLA)",TSLA,404.6,400.28,1.301T,83089760.0
+NVIDIA Corporation (NVDA),NVDA,120.07,124.65,2.941T,385199825.0
+"Amazon.com, Inc. (AMZN)",AMZN,237.68,234.64,2.499T,36067346.0
+The Walt Disney Company (DIS),DIS,113.06,113.43,204.464B,"5,258,971"
